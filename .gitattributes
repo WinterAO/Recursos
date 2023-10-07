@@ -23,7 +23,6 @@ Fuentes/font3.dat eol=lf
 *.mid -text
 *.mp3 -text
 *.wav -text
-*.amb -text
 *.ao -text
 *.WAO -text
 *.ocx -text
