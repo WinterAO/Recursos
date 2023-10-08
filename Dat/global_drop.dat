@@ -9,7 +9,7 @@
 
 
 [GLOBAL]
-NumDrops=8
+NumDrops=24
 
 'Pocion roja
 [DROP1]
@@ -63,4 +63,94 @@ Amount=1-1
 [DROP9]
 ObjIndex=1131
 Prob=7.0
+Amount=1-1
+
+'Arma en mal estado
+[DROP10]
+ObjIndex=1339
+Prob=3.0
+Amount=1-1
+
+'Armadura hierro rota
+[DROP11]
+ObjIndex=1340
+Prob=3.0
+Amount=1-1
+
+'Armadura hierro rota
+[DROP12]
+ObjIndex=1341
+Prob=3.0
+Amount=1-1
+
+'Armadura de oro rota
+[DROP13]
+ObjIndex=1342
+Prob=3.0
+Amount=1-1
+
+'Casco de oro roto
+[DROP14]
+ObjIndex=1343
+Prob=3.0
+Amount=1-1
+
+'Casco de hierro roto
+[DROP15]
+ObjIndex=1344
+Prob=3.0
+Amount=1-1
+
+'Cimitarra rota
+[DROP16]
+ObjIndex=1345
+Prob=3.0
+Amount=1-1
+
+'Copa de plata rota
+[DROP17]
+ObjIndex=1346
+Prob=3.0
+Amount=1-1
+
+'Escudo de plata roto
+[DROP18]
+ObjIndex=1347
+Prob=3.0
+Amount=1-1
+
+'Sable roto
+[DROP19]
+ObjIndex=1348
+Prob=3.0
+Amount=1-1
+
+'Espada plata rota
+[DROP20]
+ObjIndex=1349
+Prob=4.0
+Amount=1-1
+
+'Hacha dos filos rota
+[DROP21]
+ObjIndex=1350
+Prob=3.0
+Amount=1-1
+
+'Katana rota
+[DROP22]
+ObjIndex=1351
+Prob=3.0
+Amount=1-1
+
+'Cota de mallas rota
+[DROP23]
+ObjIndex=1352
+Prob=3.0
+Amount=1-1
+
+'Restos escudo hierro roto
+[DROP24]
+ObjIndex=1353
+Prob=3.0
 Amount=1-1
