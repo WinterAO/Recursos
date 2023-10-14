@@ -120,7 +120,7 @@ Skills Profesiones:
 [INIT]
 'aca va el numero de NPC mas alto, NO la cantidad de NPCs.
 'esto sirve para que los GMS puedan ver la lista completa de npcs a invocar en una ventanita.
-NumNPCs=1312
+NumNPCs=1313
 
 ##############################################################
 ################ NPCS VENDEDORES DE ISLA NEWBIE #####################
@@ -9112,3 +9112,34 @@ Recurso=19-2
 NROITEMS=1
 Obj1=1309-6-100 'Cristal de Duralunin
 Speed=370
+
+[NPC1313]
+Name=Serpiente TEST EXP
+NpcType=0
+Head=0
+Heading=1
+Body=13
+Movement=3
+AguaValida=0
+Attackable=1
+Respawn=0
+Hostile=1
+Domable=400
+Alineacion=2
+Comercia=0
+GiveEXP=999999999
+GiveGLD=999999
+MinHP=1
+MaxHP=1
+MaxHIT=1
+MinHIT=1
+ELV=5
+DEF=0
+PoderAtaque=10
+PoderEvasion=0
+Snd1=296
+Snd2=297
+Snd3=298
+BackUp=0
+NROITEMS=0
+Speed=480
