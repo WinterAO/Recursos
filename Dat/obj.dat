@@ -4357,12 +4357,12 @@ CP10=DRUIDA
 CP11=BRUJO
 
 [OBJ371]
-Name=Tumba de Nebeth
+Name=La Tumba del Capitán Espada Negra
 GrhIndex=513
 VGrande=514
 ObjType=8
 Agarrable=1
-Texto=Bajo este marmol descansan los restos del Dios Nebeth, ese diminuto demiurgo de grandes ambiciones.
+Texto=Aquí yace un intrépido capitán de los mares, buscador de fortunas y maestro del océano. Que su espíritu siga navegando en aguas eternas.
 
 [OBJ372]
 Name=Manto de Sacerdote del Imperio
@@ -6569,12 +6569,12 @@ IndexAbierta=533
 IndexCerrada=534
 
 [OBJ535]
-Name=Tumba de Gulfas Morgolock
+Name=La Tumba del Mago Supremo, Aelarion
 GrhIndex=513
 VGrande=514
 ObjType=8
 Agarrable=1
-Texto=Lapida en homenaje a nuestro gran demiurgo, Gulfas Morgolock, quien desaparecio fisicamente de estas tierras para salvarnos del oscuro poder del mal.
+Texto=Aquí reposan los restos del gran Aelarion, maestro de las artes mágicas y protector de los reinos. Sus hechizos iluminaron el mundo, y su sabiduría perdura en los misterios insondables que custodió.
 
 [OBJ536]
 Name=Invocar Elemental de Fuego [MAGOS]
@@ -16661,128 +16661,3 @@ GrhIndex=3556
 ObjType=41
 Agarrable=1
 TiempoVIP=1
-
-
------------------ITEMS ROTOS FUNDIBLES---------------------
-
-[OBJ1339]
-Name=Arma en mal estado.
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1340]
-Name=Armadura hierro rota (E/G)
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1341]
-Name=Armadura hierro rota (H)
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1342]
-Name=Armadura Oro rota (H)
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-
-[OBJ1343]
-Name=Casco Oro roto
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1344]
-Name=Casco Hierro roto
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1345]
-Name=Cimitarra rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1346]
-Name=Copla de plata rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1347]
-Name=Escudo plata roto
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1348]
-Name=Sable roto
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1349]
-Name=Espada de plata rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-
-[OBJ1350]
-Name=Hacha dos filos rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1351]
-Name=Katana rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1352]
-Name=Cota de mallas rota
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-[OBJ1353]
-Name=Restos escudo hierro
-GrhIndex=0
-ObjType=20
-Agarrable=0
-Valor=0
-Crucial=0
-
-----------------------FIN ITEMS ROTOS FUNDIBLES-----------------------
