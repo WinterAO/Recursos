@@ -1,0 +1,1 @@
+Los graficos de esta carpeta son graficos que ya estan indexados en el juego, solo hay que adaptar los index, y reemplazar el grafico.
