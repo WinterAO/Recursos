@@ -1,0 +1,1 @@
+Los archivos de zonas (.zon) contiene las zonas zonas extraidas de un mapa. Este archivo sirve para importar estas zonas a un mapa, se debe hacer con el WorldEditor de Winter.
