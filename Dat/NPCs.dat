@@ -2603,6 +2603,7 @@ Speed=370
 
 [NPC1000]
 Name=Culebra
+ELV=5
 NpcType=0
 Head=0
 Heading=1
@@ -2626,11 +2627,13 @@ PoderEvasion=50
 SND2=120
 BackUp=0
 Veneno=1
-NROITEMS=0
+NROITEMS=1
+Obj1=1249-1-5 'Glandula de veneno
 Speed=370
 
 [NPC1001]
 Name=Gallo Salvaje
+ELV=5
 NpcType=0
 Head=0
 Heading=1
@@ -2654,11 +2657,14 @@ PoderEvasion=25
 SND1=118
 SND2=119
 BackUp=0
-NROITEMS=0
+NROITEMS=2
+Obj1=26-1-100 'Pollo
+Obj2=1189-1-100 'Pluma
 Speed=370
 
 [NPC1002]
 Name=Cerdo Salvaje
+ELV=5
 NpcType=0
 Desc=Oink Oink
 Head=0
@@ -2682,11 +2688,14 @@ PoderAtaque=125
 PoderEvasion=25
 BackUp=0
 Snd2=4
-NROITEMS=0
+NROITEMS=2
+Obj1=27-1-100 'Chuleta
+Obj2=1190-1-100 'Piel de Cerdo
 Speed=370
 
 [NPC1003]
 Name=Vaca Salvaje
+ELV=5
 NpcType=0
 Desc=Muuuuu
 Head=0
@@ -2710,11 +2719,14 @@ PoderAtaque=125
 PoderEvasion=25
 Snd2=8
 BackUp=0
-NROITEMS=0
+NROITEMS=2
+Obj1=27-1-100 'Chuleta
+Obj2=1192-1-100 'Piel de Vaca
 Speed=370
 
 [NPC1004]
 Name=Jabali Salvaje
+ELV=5
 NpcType=0
 Head=0
 Heading=1
@@ -2738,7 +2750,80 @@ PoderEvasion=75
 SND1=208
 SND3=207
 BackUp=0
-NROITEMS=0
+NROITEMS=2
+Obj1=27-1-100 'Chuleta
+Obj2=1191-1-100 'Piel de Jabali
+Speed=370
+
+*****************************************
+************** RIO THORKIS **************
+*****************************************
+
+[NPC1006]
+Name=Tortuga Gigante
+ELV=10
+NpcType=0
+Head=0
+Heading=1
+Body=74
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=500
+GiveGLD=75
+MinHP=500
+MaxHP=500
+MaxHIT=30
+MinHIT=55
+DEF=0
+PoderAtaque=215
+PoderEvasion=125
+Veneno=1
+SND1=299
+SND2=300
+SND3=301
+BackUp=0
+NROITEMS=1
+Obj1=401-1-100 'Escudo de tortuga
+Speed=370
+
+[NPC1008]
+Name=Grumgull
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=401
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1175
+GiveGLD=75
+MinHP=800
+MaxHP=800
+MaxHIT=45
+MinHIT=55
+DEF=0
+PoderAtaque=215
+PoderEvasion=125
+Veneno=1
+SND1=299
+SND2=300
+SND3=301
+BackUp=0
+NROITEMS=2
+Obj1=401-1-50 'Escudo de tortuga
+Obj2=1249-1-10 'Glandula de veneno
 Speed=370
 
 ##############################################################

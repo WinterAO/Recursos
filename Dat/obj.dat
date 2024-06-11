@@ -15172,49 +15172,36 @@ Texto=Bienvenido a Dungeon Marabel.
 Shadow=1
 
 [OBJ1189]
-Name=Cartel Entranadora hija de ZeuS
-GrhIndex=25937
-VGrande=501
-ObjType=8
-Agarrable=1
-Texto=Continua al Este y llegaras a la entrenadora con Criaturas especiales para entrenar Fuerte.
-Shadow=1
+Name=Pluma
+GrhIndex=35393
+ObjType=30
+Agarrable=0
+Valor=0
+Crucial=0
 
 [OBJ1190]
-Name=Cartel Entranadora hija de ZeuS
-GrhIndex=25919
-VGrande=501
-ObjType=8
-Agarrable=1
-Texto=Continua al Oeste y llegaras a la entrenadora con Criaturas especiales para entrenar Fuerte.
-Shadow=1
+Name=Piel de Cerdo
+GrhIndex=37798
+ObjType=30
+Agarrable=0
+Valor=0
+Crucial=0
 
 [OBJ1191]
-Name=Cartel Entrenadora hija de ZeuS
-GrhIndex=25929
-VGrande=501
-ObjType=8
-Agarrable=1
-Texto=Entrada a catacumbas interciudades podras llegar rapidamente a otra ciudad poe ellas OJO son inseguras.
-Shadow=1
+Name=Piel de Javali
+GrhIndex=37819
+ObjType=30
+Agarrable=0
+Valor=0
+Crucial=0
 
 [OBJ1192]
-Name=Cartel Laberinto
-GrhIndex=25922
-VGrande=501
-ObjType=8
-Agarrable=1
-Texto=Entrada al Laberinto de ReyarB recomendamos no entrar.
-Shadow=1
-
-[OBJ1193]
-Name=Cartel Lindos
-GrhIndex=25931
-VGrande=501
-ObjType=8
-Agarrable=1
-Texto=Bienvenido a Lindos.
-Shadow=1
+Name=Piel de Vaca
+GrhIndex=37831
+ObjType=30
+Agarrable=0
+Valor=0
+Crucial=0
 
 [OBJ1194]
 Name=Cartel Minas de Hierro
@@ -15737,8 +15724,8 @@ IndexCerrada=1248
 IndexCerradaLlave=8
 
 [OBJ1249]
-Name=Veneno de vibora
-GrhIndex=5738
+Name=Glandula de Veneno
+GrhIndex=34771
 ObjType=30
 Agarrable=0
 Valor=0
