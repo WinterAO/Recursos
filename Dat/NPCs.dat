@@ -2789,7 +2789,7 @@ SND2=300
 SND3=301
 BackUp=0
 NROITEMS=1
-Obj1=401-1-100 'Escudo de tortuga
+Obj1=404-1-100 'Escudo de tortuga
 Speed=370
 
 [NPC1008]
@@ -2822,7 +2822,7 @@ SND2=300
 SND3=301
 BackUp=0
 NROITEMS=2
-Obj1=401-1-50 'Escudo de tortuga
+Obj1=404-1-50 'Escudo de tortuga
 Obj2=1249-1-10 'Glandula de veneno
 Speed=370
 
