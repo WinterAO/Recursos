@@ -8269,7 +8269,7 @@ Name=Piel de gato
 GrhIndex=717
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=18
 Crucial=0
 
 [OBJ667]
@@ -15183,7 +15183,7 @@ Name=Piel de Cerdo
 GrhIndex=37798
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=21
 Crucial=0
 
 [OBJ1191]
@@ -15191,7 +15191,7 @@ Name=Piel de Javali
 GrhIndex=37819
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=21
 Crucial=0
 
 [OBJ1192]
@@ -15199,7 +15199,7 @@ Name=Piel de Vaca
 GrhIndex=37831
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=20
 Crucial=0
 
 [OBJ1193]
@@ -15207,7 +15207,7 @@ Name=Piel de Tigre
 GrhIndex=37828
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=24
 Crucial=0
 
 [OBJ1194]
@@ -16869,7 +16869,7 @@ Name=Piel de Cocodrilo
 GrhIndex=37806
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=102
 Crucial=0
 
 [OBJ1362]
@@ -16877,7 +16877,7 @@ Name=Piel de Zorro
 GrhIndex=37839
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=21
 Crucial=0
 
 [OBJ1363]
@@ -16885,7 +16885,7 @@ Name=Piel de Coyote
 GrhIndex=37802
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=21
 Crucial=0
 
 [OBJ1364]
@@ -16893,5 +16893,5 @@ Name=Cola de gusano
 GrhIndex=37820
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=21
 Crucial=0
