@@ -29,13 +29,13 @@ TODOS LOS NPC CON RETARDO Y WORLDBOSS TIENEN QUE TENER PosOrig
 ##############################################
 
 TiempoRetardoMin, TiempoRetardoMax ===== El NPC tendra un retardo de Respawn especificado en Minutos
-Explotar ===== El NPC tendra un 50% de explota haciendo el doble de su golpe minimo
+Explotar ===== El NPC tendra un 50% de explotar haciendo el doble de su golpe minimo
 LanzaMensaje ===== El NPC mandara un mensaje cuando le quede un 10% de su vida
-ActivoPotencia ===== El NPC pegar el doble a partir de su 50% de vida
+ActivoPotencia ===== El NPC pegara el doble a partir de su 50% de vida
 Invocacion ===== NPC que son de invocacion
 Tepeable ===== Se activa con porcentaje. El porcentaje indicara a partir de que vida empezara hacerse TP por golpes (Del 1% al 100%)
 Veneno ===== El Npc envenenada
-Quema ===== EL Npc incinera
+Quema ===== El Npc incinera
 
 ##############################################
 ############ VELOCIDAD VARIABLE ##############
@@ -253,7 +253,7 @@ Speed=370
 [NPC8] 
 Name=Entrenador
 NpcType=0
-Desc=Bienvenido a la Isla Newbie. En este lugar protegido podras preparate para salir al mundo exterior en busca de aventuras. Mis amigos te daran misiones que te ayudaran a entrenar, equiparte y conseguir algo de oro. Buena suerte!
+Desc=Bienvenido a la Isla del Amanecer. En este lugar protegido podras preparate para salir al mundo exterior en busca de aventuras. Mis amigos te daran misiones que te ayudaran a entrenar, equiparte y conseguir algo de oro. Buena suerte!
 Head=549
 Heading=1
 Body=162
@@ -264,6 +264,28 @@ Hostile=0
 Domable=0
 Alineacion=0
 Comercia=0
+
+[NPC9] 'Pescador Isla del Amanecer
+Name=Pescador
+NpcType=0
+Desc=¿Sabes que la pesca te puede sacar de mas de un apuro economico? ¡Si vendes peces puedes conseguir unas monedas de oro!. Tengo todo tipo de utilidades para que atrapes el pez mas grande! 
+Head=2
+Heading=1
+Body=3
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=1
+TipoItems=1
+NROITEMS=3
+Obj1=138-1000 'Cana de Pescar
+Obj2=139-1000 'Pescado
+Obj3=543-1000 'Red de Pesca
+BackUp=1
+Speed=370
 
 ##############################################################
 ################ NPCS VENDEDORES DE RAMX #####################
@@ -1978,7 +2000,7 @@ BackUp=1
 Speed=370
 
 ##############################################################
-############## NPCS VENDEDORES DE WINTERHOLD ##################
+############## NPCS VENDEDORES DE FROSTDALE ##################
 ##############################################################
 
 [NPC200]
@@ -2350,6 +2372,67 @@ NROITEMS=0
 BackUp=1
 Speed=370
 
+##############################################################
+############## NPCS VENDEDORES DE ISLAS OLVIDADAS ############
+##############################################################
+
+[NPC251]
+Name=Sacerdote
+NpcType=1
+Desc=Bienvenido hijo a este santuario, soy el sacerdote de estas islas y velo por la seguridad de todas estas tortugas. ¿Te gustan? ¡A mi me encantan!
+Head=16
+Heading=1
+Body=79
+HelmetAnim=123
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+Speed=370
+
+[NPC252]
+Name=Pescador
+NpcType=0
+Desc=¡Estas islas son una maravilla para la pesca! Tengo algunas cosas que quizas puedan interesarte.
+Head=0
+Heading=3
+Body=84
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=1
+TipoItems=1
+NROITEMS=3
+Obj1=138-1000 'Cana de Pescar
+Obj2=139-1000 'Pescado
+Obj3=543-1000 'Red de Pesca
+BackUp=1
+Speed=370
+
+[NPC253]
+Name=Banquero
+NpcType=4
+Desc=Si, si, soy un empleado de Finanzas Goliath ¿¡Acaso no ves que estoy de vacaciones!? ¿Te importa dejarme?
+Head=118
+Heading=1
+Body=210
+HelmetAnim=117
+Movement=1
+Attackable=0
+ReSpawn=0
+Hostile=0
+Domable=0
+Alineacion=0
+Comercia=0
+BackUp=0
+Speed=370
 
 ##############################################################
 ################## INVOCACIONES HECHIZOS #####################
@@ -3188,7 +3271,7 @@ Obj1=1359-1-75 'Esporas
 Speed=370
 
 *****************************************
-************ BOSQUE ESTERIL *************
+******** BOSQUE DE LOS LAMENTOS *********
 *****************************************
 
 [NPC1019]
@@ -3897,6 +3980,1421 @@ Snd2=9
 Obj1=1363-1-100 'Piel de Coyote
 Speed=370
 
+*****************************************
+************ ENTRADA RAIDER *************
+*****************************************
+
+[NPC1042]
+Name=Ogro
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=76
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2500
+GiveGLD=75
+MinHP=1400
+MaxHP=1400
+MinHIT=70
+MaxHIT=85
+DEF=0
+PoderAtaque=275
+PoderEvasion=175
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1043]
+Name=Orco
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=43
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2500
+GiveGLD=45
+MinHP=1400
+MaxHP=1400
+MinHIT=40
+MaxHIT=75
+DEF=0
+PoderEvasion=155
+PoderAtaque=275
+BackUp=0
+NROITEMS=0
+Speed=370
+
+*****************************************
+************** CEMENTERIO ***************
+*****************************************
+
+[NPC1044]
+Name=Esqueleto
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=12
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=150
+GiveGLD=25
+MinHP=125
+MaxHP=125
+MinHIT=15
+MaxHIT=30
+DEF=0
+PoderEvasion=105
+PoderAtaque=125
+BackUp=0
+NROITEMS=1
+Obj1=1365-2-100 'Hueso
+Speed=370
+
+[NPC1045]
+Name=Esqueleto Guerrero
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=393
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=375
+GiveGLD=100
+MinHP=300
+MaxHP=300
+MinHIT=25
+MaxHIT=45
+DEF=0
+PoderEvasion=125
+PoderAtaque=210
+BackUp=0
+NROITEMS=1
+Obj1=1365-2-100 'Hueso
+Speed=370
+
+[NPC1046]
+Name=Zombie
+ELV=15
+NpcType=0
+Head=777
+Heading=1
+Body=196
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=250
+GiveGLD=50
+MinHP=250
+MaxHP=250
+MinHIT=15
+MaxHIT=35
+DEF=0
+PoderEvasion=85
+PoderAtaque=195
+BackUp=0
+Veneno=1
+NROITEMS=1
+Obj1=1365-1-100 'Hueso
+Speed=370
+
+[NPC1047]
+Name=Lord Zombie
+ELV=15
+NpcType=0
+Head=778
+Heading=1
+Body=197
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=350
+GiveGLD=100
+MinHP=350
+MaxHP=350
+MinHIT=35
+MaxHIT=50
+DEF=0
+PoderEvasion=85
+PoderAtaque=195
+BackUp=0
+Veneno=1
+NROITEMS=1
+Obj1=1365-1-100 'Hueso
+Speed=370
+
+[NPC1048]
+Name=Nigromante
+ELV=20
+NpcType=0
+Head=779
+Heading=1
+Body=198
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=350
+GiveGLD=100
+MinHP=1250
+MaxHP=1250
+MinHIT=70
+MaxHIT=110
+DEF=0
+PoderEvasion=165
+PoderAtaque=275
+BackUp=0
+Veneno=1
+NROITEMS=1
+Obj1=1365-1-100 'Hueso
+Speed=370
+
+*****************************************
+********* RUTA CONTRABANDISTA ***********
+*****************************************
+
+[NPC1049]
+Name=Contrabandista
+ELV=10
+NpcType=0
+Head=201
+Heading=1
+Body=47
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1000
+GiveGLD=75
+MinHP=750
+MaxHP=750
+MinHIT=45
+MaxHIT=80
+DEF=0
+PoderEvasion=125
+PoderAtaque=215
+BackUp=0
+NROITEMS=1
+Obj1=1360-1-1 'Energia Oscura
+Speed=370
+
+[NPC1050]
+Name=Rata Salvaje
+ELV=10
+NpcType=0
+Head=0
+Heading=1
+Body=675
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=550
+GiveGLD=0
+MinHP=350
+MaxHP=350
+MinHIT=30
+MaxHIT=65
+DEF=0
+PoderEvasion=145
+PoderAtaque=215
+BackUp=0
+NROITEMS=1
+Obj1=28-1-100 'Queso
+Speed=370
+
+[NPC1051]
+Name=Lacayo
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=674
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1500
+GiveGLD=100
+MinHP=850
+MaxHP=850
+MinHIT=115
+MaxHIT=145
+DEF=0
+PoderEvasion=165
+PoderAtaque=235
+BackUp=0
+NROITEMS=1
+Obj1=1360-1-1 'Energia Oscura
+Speed=370
+
+[NPC1052]
+Name=Cucaracha
+ELV=5
+NpcType=0
+Head=0
+Heading=1
+Body=229
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=15
+GiveGLD=10
+MinHP=15
+MaxHP=15
+MinHIT=5
+MaxHIT=10
+DEF=0
+PoderEvasion=25
+PoderAtaque=195
+BackUp=0
+NROITEMS=0
+Speed=370
+
+*****************************************
+************ MINAS MANTHRA **************
+*****************************************
+
+[NPC1053]
+Name=Espiritu de la Tierra
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=544
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1450
+GiveGLD=100
+MinHP=1000
+MaxHP=1000
+MinHIT=60
+MaxHIT=95
+DEF=0
+PoderEvasion=145
+PoderAtaque=235
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1054]
+Name=Enano de las Profundidades
+ELV=25
+NpcType=0
+Head=329
+Heading=1
+Body=54
+WeaponAnim=30
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=5000
+GiveGLD=250
+MinHP=3000
+MaxHP=3000
+MinHIT=185
+MaxHIT=210
+DEF=35
+PoderEvasion=265
+PoderAtaque=315
+BackUp=0
+NROITEMS=3
+Obj1=1366-1-10 ' Aleación
+Obj2=243-1-1   ' Armadura de Placas Completa (E/G)
+Obj3=187-1-15  ' Piquete de Minero
+Speed=370
+AfectaParalisis=1
+
+*****************************************
+************ DUNGEON RAIDER *************
+*****************************************
+
+[NPC1055]
+Name=Beholder
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=72
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2500
+GiveGLD=150
+MinHP=1400
+MaxHP=1400
+MinHIT=110
+MaxHIT=145
+DEF=0
+PoderEvasion=205
+PoderAtaque=315
+BackUp=0
+NROITEMS=1
+Obj1=1367-1-25  'Ojo de Beholder
+Speed=370
+
+[NPC1056]
+Name=Liche
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=149
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3000
+GiveGLD=400
+MinHP=2000
+MaxHP=2000
+MinHIT=95
+MaxHIT=120
+DEF=0
+PoderEvasion=165
+PoderAtaque=255
+BackUp=0
+NROITEMS=1
+Obj1=1365-4-100 'Hueso
+Speed=370
+
+[NPC1057]
+Name=Guardian
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=451
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3100
+GiveGLD=250
+MinHP=3000
+MaxHP=3000
+MinHIT=130
+MaxHIT=150
+DEF=0
+PoderEvasion=165
+PoderAtaque=320
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1058]
+Name=Guardian
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=452
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3100
+GiveGLD=250
+MinHP=3000
+MaxHP=3000
+MinHIT=130
+MaxHIT=150
+DEF=0
+PoderEvasion=165
+PoderAtaque=320
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1059]
+Name=Bomba de Lava
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=669
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3100
+GiveGLD=450
+MinHP=4500
+MaxHP=4500
+MinHIT=100
+MaxHIT=160
+DEF=0
+PoderEvasion=165
+PoderAtaque=320
+BackUp=0
+NROITEMS=0
+Speed=370
+Quema=1
+Explotar=1
+
+[NPC1060]
+Name=Abyssalor
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=658
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3100
+GiveGLD=280
+MinHP=1800
+MaxHP=1800
+MinHIT=115
+MaxHIT=150
+DEF=0
+PoderEvasion=205
+PoderAtaque=315
+BackUp=0
+NROITEMS=0
+Speed=370
+
+*****************************************
+********** TUMBA DE SEMERJET ************
+*****************************************
+
+[NPC1061]
+Name=Guardian Momificado
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=680
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2700
+GiveGLD=75
+MinHP=1800
+MaxHP=1800
+MinHIT=85
+MaxHIT=110
+DEF=0
+PoderEvasion=145
+PoderAtaque=255
+BackUp=0
+NROITEMS=1
+Obj1=1360-1-1
+Speed=370
+
+[NPC1062]
+Name=Sacerdote Momificado
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=679
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3000
+GiveGLD=125
+MinHP=2250
+MaxHP=2250
+MinHIT=65
+MaxHIT=95
+DEF=0
+PoderEvasion=125
+PoderAtaque=235
+BackUp=0
+NROITEMS=1
+Obj1=1360-1-1
+Speed=370
+
+[NPC1063]
+Name=Semerjet
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=682
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=5500
+GiveGLD=750
+MinHP=5500
+MaxHP=5500
+MinHIT=135
+MaxHIT=150
+DEF=25
+PoderEvasion=185
+PoderAtaque=275
+BackUp=0
+NROITEMS=1
+Obj1=1360-3-10
+Speed=370
+
+[NPC1064]
+Name=Guardian de la Tierra
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=644
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2800
+GiveGLD=95
+MinHP=1900
+MaxHP=1900
+MinHIT=100
+MaxHIT=125
+DEF=0
+PoderEvasion=145
+PoderAtaque=255
+BackUp=0
+NROITEMS=1
+Obj1=1360-3-10
+Speed=370
+
+[NPC1065]
+Name=Guardian de la Arena
+ELV=25
+NpcType=0
+Head=0
+Heading=1
+Body=643
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=2800
+GiveGLD=95
+MinHP=1900
+MaxHP=1900
+MinHIT=100
+MaxHIT=125
+DEF=0
+PoderEvasion=145
+PoderAtaque=255
+BackUp=0
+NROITEMS=1
+Obj1=1360-3-10
+Speed=370
+
+[NPC1081]
+Name=Escarabajo
+ELV=20
+NpcType=0
+Head=0
+Heading=1
+Body=391
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1800
+GiveGLD=45
+MinHP=1100
+MaxHP=1100
+MinHIT=100
+MaxHIT=125
+DEF=0
+PoderEvasion=50
+PoderAtaque=80
+BackUp=0
+NROITEMS=0
+Speed=370
+
+*****************************************
+************ ISLA PIRATA ****************
+*****************************************
+
+[NPC1080]
+Name=Pirata
+ELV=20
+NpcType=0
+Head=532
+Heading=1
+Body=386
+WeaponAnim=56
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=950
+GiveGLD=25
+MinHP=700
+MaxHP=700
+MinHIT=95
+MaxHIT=115
+DEF=0
+PoderEvasion=125
+PoderAtaque=275
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-1 'Cofre
+Speed=370
+
+[NPC1066]
+Name=Pirata Arquero
+ELV=20
+NpcType=0
+Head=321
+Heading=1
+Body=174
+WeaponAnim=41
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1100
+GiveGLD=30
+MinHP=800
+MaxHP=800
+MinHIT=100
+MaxHIT=120
+DEF=0
+PoderEvasion=130
+PoderAtaque=280
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-2 'Cofre
+Speed=370
+
+[NPC1067]
+Name=Contramaestre Pirata
+ELV=25
+NpcType=0
+Head=550
+Heading=1
+Body=374
+WeaponAnim=41
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1500
+GiveGLD=75
+MinHP=2250
+MaxHP=2250
+MinHIT=105
+MaxHIT=135
+DEF=5
+PoderEvasion=140
+PoderAtaque=280
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-5 'Cofre
+Speed=370
+
+[NPC1068]
+Name=Capitan Pirata
+ELV=30
+NpcType=0
+Head=549
+Heading=1
+Body=428
+WeaponAnim=41
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1500
+GiveGLD=200
+MinHP=3700
+MaxHP=3700
+MinHIT=145
+MaxHIT=185
+DEF=5
+PoderEvasion=165
+PoderAtaque=295
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-15 'Cofre
+Speed=370
+
+[NPC1069]
+Name=Navegante Fantasma
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=487
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3700
+GiveGLD=100
+MinHP=2500
+MaxHP=2500
+MinHIT=145
+MaxHIT=185
+DEF=5
+PoderEvasion=155
+PoderAtaque=285
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-7 'Cofre
+Speed=370
+
+[NPC1070]
+Name=Galeon Pirata
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=573
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=4600
+GiveGLD=150
+MinHP=2500
+MaxHP=2500
+MinHIT=165
+MaxHIT=200
+DEF=10
+PoderEvasion=165
+PoderAtaque=295
+BackUp=0
+NROITEMS=1
+Obj1=1287-1-10 'Cofre
+Speed=370
+
+*****************************************
+********* TEMPLO SUMERGIDO **************
+*****************************************
+
+[NPC1071]
+Name=Kraken
+ELV=40
+NpcType=0
+Head=0
+Heading=1
+Body=408
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=10500
+GiveGLD=600
+MinHP=7000
+MaxHP=7000
+MinHIT=155
+MaxHIT=190
+DEF=0
+PoderEvasion=185
+PoderAtaque=335
+BackUp=0
+NROITEMS=2
+Obj1=1368-1-3 'Huesos de Bestia Marina
+Obj2=1369-1-100 'Agua Mistica
+LanzaSpells=1
+Sp1=9
+Speed=370
+
+[NPC1072]
+Name=Leviathan
+ELV=35
+NpcType=0
+Head=0
+Heading=1
+Body=99
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=8500
+GiveGLD=400
+MinHP=6000
+MaxHP=6000
+MinHIT=145
+MaxHIT=175
+DEF=0
+PoderEvasion=165
+PoderAtaque=315
+BackUp=0
+NROITEMS=2
+Obj1=1368-1-3 'Huesos de Bestia Marina
+Obj2=1369-1-100 'Agua Mistica
+Speed=370
+
+[NPC1073]
+Name=Elemental de Agua Anciano
+ELV=35
+NpcType=0
+Head=0
+Heading=1
+Body=429
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=9200
+GiveGLD=2500
+MinHP=6650
+MaxHP=6650
+MinHIT=100
+MaxHIT=120
+DEF=0
+PoderEvasion=265
+PoderAtaque=290
+BackUp=0
+NROITEMS=2
+Obj1=1369-1-100 'Agua Mistica
+Obj2=537-1-5 'Invocar Elemental de Agua
+LanzaSpells=1
+Sp1=31
+Speed=370
+
+[NPC1074]
+Name=Lutra
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=435
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3750
+GiveGLD=300
+MinHP=2500
+MaxHP=2500
+MinHIT=185
+MaxHIT=220
+DEF=0
+PoderEvasion=165
+PoderAtaque=355
+BackUp=0
+NROITEMS=2
+Obj1=1368-1-3 'Huesos de Bestia Marina
+Obj2=1369-1-100 'Agua Mistica
+Speed=370
+
+[NPC1075]
+Name=Espectro de Agua
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=640
+Movement=2
+AguaValida=1
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=5750
+GiveGLD=875
+MinHP=4500
+MaxHP=4500
+MinHIT=155
+MaxHIT=205
+DEF=10
+PoderEvasion=125
+PoderAtaque=295
+BackUp=0
+NROITEMS=1
+Obj1=1369-1-100 'Agua Mistica
+Speed=370
+
+[NPC1076]
+Name=Golem de Tierra
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=141
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=5750
+GiveGLD=875
+MinHP=4500
+MaxHP=4500
+MinHIT=155
+MaxHIT=205
+DEF=10
+PoderEvasion=125
+PoderAtaque=295
+BackUp=0
+NROITEMS=1
+Obj1=1370-1-100 'Esencia de Tierra
+Speed=370
+
+[NPC1077]
+Name=Adorador de Zharkel
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=540
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3750
+GiveGLD=300
+MinHP=2500
+MaxHP=2500
+MinHIT=150
+MaxHIT=180
+DEF=0
+PoderEvasion=145
+PoderAtaque=280
+BackUp=0
+NROITEMS=1
+Obj1=1371-1-100 'Anillo de la Secta
+Speed=370
+
+[NPC1078]
+Name=Observador de las Profundidades
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=615
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+AfectaParalisis=1
+GiveEXP=5750
+GiveGLD=875
+MinHP=4500
+MaxHP=4500
+MinHIT=130
+MaxHIT=170
+DEF=0
+PoderEvasion=125
+PoderAtaque=275
+BackUp=0
+NROITEMS=1
+Obj1=1372-1-100 'Esencia Mistica
+LanzaSpells=1
+Sp1=31 'Aturdir
+Speed=370
+
+[NPC1079]
+Name=Esbirro Excavador
+ELV=35
+NpcType=0
+Head=0
+Heading=1
+Body=657
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=4500
+GiveGLD=500
+MinHP=2800
+MaxHP=2800
+MinHIT=135
+MaxHIT=165
+DEF=0
+PoderEvasion=135
+PoderAtaque=275
+BackUp=0
+NROITEMS=1
+Obj1=1373-1-100 'Monton de Rocas
+Speed=370
+
+*****************************************
+********* BOSQUES DE INVIERNO ***********
+*****************************************
+
+[NPC1082]
+Name=PingÜino
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=455
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=250
+GiveGLD=0
+MinHP=250
+MaxHP=250
+MinHIT=25
+MaxHIT=45
+DEF=0
+PoderEvasion=75
+PoderAtaque=215
+BackUp=0
+NROITEMS=1
+Obj1=1374-1-100 'Piel de Pinguino
+Speed=370
+
+[NPC1083]
+Name=Oso Polar
+ELV=15
+NpcType=0
+Head=0
+Heading=1
+Body=184
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=1700
+GiveGLD=0
+MinHP=1700
+MaxHP=1700
+MinHIT=85
+MaxHIT=105
+DEF=0
+PoderEvasion=165
+PoderAtaque=275
+BackUp=0
+NROITEMS=1
+Obj1=1375-1-100 'Piel de Oso Polar
+Speed=370
+
+[NPC1084]
+Name=Lobo Polar
+ELV=10
+NpcType=0
+Head=0
+Heading=1
+Body=663
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=500
+GiveGLD=0
+MinHP=375
+MaxHP=375
+MinHIT=50
+MaxHIT=100
+DEF=0
+PoderEvasion=150
+PoderAtaque=225
+BackUp=0
+NROITEMS=1
+Obj1=1376-1-100 'Piel de Lobo Polar
+Speed=370
+
+*****************************************
+************ BOSQUES TROLL **************
+*****************************************
+
+[NPC1085]
+Name=Troll Guardian
+ELV=35
+NpcType=0
+Head=0
+Heading=1
+Body=665
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3300
+GiveGLD=525
+MinHP=2400
+MaxHP=2400
+MinHIT=125
+MaxHIT=170
+DEF=10
+PoderEvasion=145
+PoderAtaque=275
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1086]
+Name=Jefe Troll
+ELV=40
+NpcType=0
+Head=0
+Heading=1
+Body=650
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=10000
+GiveGLD=925
+MinHP=7500
+MaxHP=7500
+MinHIT=195
+MaxHIT=235
+DEF=15
+PoderEvasion=145
+PoderAtaque=315
+BackUp=0
+NROITEMS=0
+Speed=370
+
+[NPC1087]
+NameHuargo
+ELV=30
+NpcType=0
+Head=0
+Heading=1
+Body=549
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3000
+GiveGLD=0
+MinHP=2000
+MaxHP=2000
+MinHIT=110
+MaxHIT=150
+DEF=5
+PoderEvasion=130
+PoderAtaque=260
+BackUp=0
+NROITEMS=1
+Obj1=1377-1-100 'Piel de Huargo
+Speed=370
+
+[NPC1088]
+Name=Lanzapiedras Troll
+ELV=35
+NpcType=0
+Head=0
+Heading=1
+Body=666
+Movement=2
+AguaValida=0
+Attackable=1
+ReSpawn=0
+Hostile=1
+Domable=2010
+Alineacion=2
+Comercia=0
+GiveEXP=3500
+GiveGLD=300
+MinHP=2700
+MaxHP=2700
+MinHIT=140
+MaxHIT=180
+DEF=10
+PoderEvasion=140
+PoderAtaque=280
+BackUp=0
+NROITEMS=0
+Speed=370
+
 ##############################################################
 ##################### PRETORIANOS ############################
 ##############################################################
@@ -4358,7 +5856,7 @@ Speed=370
 ############################################
 
 [NPC2012]
-Name=Pirata Pretoriano
+Name=Brujo Pretoriano
 NpcType=10
 Head=301
 Heading=1
@@ -4381,20 +5879,14 @@ PoderAtaque=350
 PoderEvasion=220
 LanzaSpells=1
 Sp1=37
-NROITEMS=6
-Obj1=12-8000-100  ' Oro
-Obj2=1009-125-100 ' Cuchillas
-Obj3=519-1-100    ' Tunica Legendaria
-Obj4=1010-1-100   ' Sombrero Pirata 
-Obj5=36-20-100    ' Pocion Amarilla
-Obj6=39-20-100    ' Pocion Verde
+NROITEMS=0
 BackUp=0
 Speed=370
 
 ############################################
 
 [NPC2013] ' Bajo (Asignar cabeza default)
-Name=Pirata Pretoriano
+Name=Brujo Pretoriano
 NpcType=10
 Head=301
 Heading=1
@@ -4417,13 +5909,7 @@ PoderAtaque=350
 PoderEvasion=220
 LanzaSpells=1
 Sp1=37
-NROITEMS=6
-Obj1=12-8000-100  ' Oro
-Obj2=1009-125-100 ' Cuchillas
-Obj3=525-1-100    ' Tunica Combinada (E/G)
-Obj4=1010-1-100   ' Sombrero Pirata 
-Obj5=36-20-100    ' Pocion Amarilla
-Obj6=39-20-100    ' Pocion Verde
+NROITEMS=0
 BackUp=0
 Speed=370
 
@@ -4650,80 +6136,6 @@ Speed=370
 ############################################
 
 [NPC2020]
-Name=Bandido Pretoriano
-NpcType=10
-Head=7
-Heading=1
-Body=45
-Movement=21
-AguaValida=0
-Attackable=1
-ReSpawn=1
-Hostile=1
-Domable=0
-Alineacion=2
-Comercia=0
-GiveEXP=5000
-MinHP=15000
-MaxHP=15000
-MaxHIT=200
-MinHIT=180
-DEF=20
-PoderAtaque=600
-PoderEvasion=250
-LanzaSpells=0
-NROITEMS=8
-Obj1=12-5000-100 ' Oro
-Obj2=123-2-100   ' Espada Vikinga
-Obj3=195-1-100   ' Armadura de Placas Completa
-Obj4=131-1-100   ' Casco de Hierro Completo
-Obj5=128-1-100   ' Escudo de Hierro
-Obj6=873-1-100   ' Guantes de hurto
-Obj7=37-450-100  ' Pocion Azul
-Obj8=38-300-100  ' Pocion Roja
-BackUp=0
-Speed=370
-
-############################################
-
-[NPC2021] ' Bajo (Asignar cabeza default)
-Name=Bandido Pretoriano
-NpcType=10
-Head=7
-Heading=1
-Body=54
-Movement=21
-AguaValida=0
-Attackable=1
-ReSpawn=1
-Hostile=1
-Domable=0
-Alineacion=2
-Comercia=0
-GiveEXP=5000
-MinHP=15000
-MaxHP=15000
-MaxHIT=200
-MinHIT=180
-DEF=20
-PoderAtaque=600
-PoderEvasion=250
-LanzaSpells=0
-NROITEMS=8
-Obj1=12-5000-100 ' Oro
-Obj2=123-2-100   ' Espada Vikinga
-Obj3=243-1-100   ' Armadura de Placas Completa (E/G)
-Obj4=131-1-100   ' Casco de Hierro Completo
-Obj5=128-1-100   ' Escudo de Hierro
-Obj6=873-1-100   ' Guantes de hurto
-Obj7=37-450-100  ' Pocion Azul
-Obj8=38-300-100  ' Pocion Roja
-BackUp=0
-Speed=370
-
-############################################
-
-[NPC2022]
 Name=Ladron Pretoriano
 NpcType=10
 Head=7
@@ -4758,7 +6170,7 @@ Speed=370
 
 ############################################
 
-[NPC2023] ' Bajo (Asignar cabeza default)
+[NPC2021] ' Bajo (Asignar cabeza default)
 Name=Ladron Pretoriano
 NpcType=10
 Head=7

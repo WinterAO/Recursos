@@ -154,7 +154,7 @@ Madera Magica: 1006
 [INIT]
 'aca va el numero de OBJ mas alto, NO la cantidad de OBJs.
 'esto sirve para que los GMS puedan ver la lista completa de items para crear en una ventanita.
-NumOBJs=1364
+NumOBJs=1367
 
 [OBJ1]
 Name=Manzana Roja
@@ -14092,7 +14092,7 @@ NoSeCae=1
 Valor=0
 Crucial=0
 MinSkill=50
-Speed=0.024
+Speed=3
 
 [OBJ1115]
 Name=Montura gran Rey Mono
@@ -14122,6 +14122,7 @@ MaxDef=10
 Valor=24000
 Crucial=0
 MinSkill=100
+Speed=3
 
 [OBJ1117]
 Name=Baston Nudoso Especial
@@ -16861,7 +16862,7 @@ Name=Energia Oscura
 GrhIndex=34101
 ObjType=30
 Agarrable=0
-Valor=0
+Valor=250
 Crucial=0
 
 [OBJ1361]
@@ -16894,4 +16895,109 @@ GrhIndex=37820
 ObjType=30
 Agarrable=0
 Valor=21
+Crucial=0
+
+[OBJ1365]
+Name=Hueso
+GrhIndex=35373
+ObjType=30
+Agarrable=0
+Valor=12
+Crucial=0
+
+[OBJ1366]
+Name=Aleacion
+GrhIndex=34926
+ObjType=30
+Agarrable=0
+Valor=120
+Crucial=0
+
+[OBJ1367]
+Name=Ojo de Beholder
+GrhIndex=37852
+ObjType=30
+Agarrable=0
+Valor=225
+Crucial=0
+
+[OBJ1368]
+Name=Huesos de Bestia Marina
+GrhIndex=34352
+ObjType=30
+Agarrable=0
+Valor=280
+Crucial=0
+
+[OBJ1369]
+Name=Agua Mistica
+GrhIndex=34789
+ObjType=13
+Agarrable=0
+MinAgu=100
+Valor=96
+Crucial=1
+
+[OBJ1370]
+Name=Esencia de Tierra
+GrhIndex=34646
+ObjType=30
+Agarrable=0
+Valor=100
+Crucial=0
+
+[OBJ1371]
+Name=Anillo de la Secta
+GrhIndex=34180
+ObjType=30
+Agarrable=0
+Valor=100
+Crucial=0
+
+[OBJ1372]
+Name=Esencia Mistica
+GrhIndex=35057
+ObjType=30
+Agarrable=0
+Valor=290
+Crucial=0
+
+[OBJ1373]
+Name=Monton de Rocas
+GrhIndex=37741
+ObjType=30
+Agarrable=0
+Valor=5
+Crucial=0
+
+[OBJ1374]
+Name=Piel de Pinguino
+GrhIndex=37821
+ObjType=30
+Agarrable=0
+Valor=125
+Crucial=0
+
+[OBJ1375]
+Name=Piel de Oso Polar
+GrhIndex=37838
+ObjType=30
+Agarrable=0
+Valor=325
+Crucial=0
+
+[OBJ1376]
+Name=Piel de Lobo Polar
+GrhIndex=37840
+ObjType=30
+Agarrable=0
+Valor=225
+Crucial=0
+
+[OBJ1377]
+Name=Piel de Huargo
+GrhIndex=37836
+ObjType=30
+Agarrable=0
+Valor=285
 Crucial=0
