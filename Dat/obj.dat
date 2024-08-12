@@ -4688,7 +4688,7 @@ CantMateriales=505-0-0-0
 SkHerreria=85
 
 [OBJ393]
-Name=Armadura de Placas Completa +2 (E/G)
+Name=Armadura de placas completa +2 (E/G-H/M)
 GrhIndex=3155
 ObjType=3
 NumRopaje=191
@@ -5485,7 +5485,7 @@ TipoPocion=3
 MaxModificador=10
 MinModificador=8
 Crucial=0
-Valor=6
+Valor=1
 
 [OBJ462] 'Mod Fuerza
 Name=Pocion Verde (Newbie)
@@ -5844,7 +5844,7 @@ Valor=120
 Crucial=1
 
 [OBJ487]
-Name=Dama de las Tinieblas (H/E/EO-M)
+Name=Dama de las Tinieblas
 GrhIndex=763
 ObjType=3
 NumRopaje=96
@@ -5902,7 +5902,7 @@ CantMateriales=500-200-0-0
 SkHerreria=80
 
 [OBJ490]
-Name=Ropa de Minero
+Name=Ropa de minero (H/E/EO-H/M)
 GrhIndex=766
 ObjType=3
 NumRopaje=100
@@ -6105,7 +6105,7 @@ CantMateriales=500-200-0-0
 SkHerreria=82
 
 [OBJ501]
-Name=Ropa de Campesino
+Name=Ropa de Campesino (H/E/EO-H/M)
 GrhIndex=777
 ObjType=3
 NumRopaje=111
@@ -6118,7 +6118,7 @@ CP1=MAGO
 CP2=PIRATA
 
 [OBJ502]
-Name=Ropa de Campesino (E/G)
+Name=Ropa de Campesino (E/G-H/M)
 GrhIndex=778
 ObjType=3
 NumRopaje=112
@@ -6132,7 +6132,7 @@ CP1=MAGO
 CP2=PIRATA
 
 [OBJ503]
-Name=Trampa Visual (H/E/EO-M)
+Name=Trampa Visual (H/E/EO-H/M)
 GrhIndex=779
 ObjType=3
 NumRopaje=113
@@ -6252,7 +6252,7 @@ Valor=10500
 Crucial=1
 
 [OBJ511]
-Name=Vestido de Novia Sensual (H/E/EO-M)
+Name=Vestido De Novia Sensual (H/E-M)
 GrhIndex=787
 ObjType=3
 NumRopaje=121
@@ -6277,7 +6277,7 @@ Valor=3075
 Crucial=1
 
 [OBJ513]
-Name=Vestido de Bruja (H/E/EO-M)
+Name=Vestido de Bruja (H/E-M)
 GrhIndex=790
 ObjType=3
 NumRopaje=124
@@ -8244,7 +8244,7 @@ Valor=18
 Crucial=0
 
 [OBJ667]
-Name=Cota de Mallas (E/G)
+Name=Cota de mallas (E/G-H/M)
 GrhIndex=1127
 ObjType=3
 NumRopaje=156
@@ -8262,7 +8262,7 @@ CantMateriales=105-0-0-0
 SkHerreria=65
 
 [OBJ668]
-Name=Armadura de Cuero (E/G)
+Name=Armadura de cuero (E/G-H/M)
 GrhIndex=1154
 ObjType=3
 NumRopaje=157
@@ -9983,7 +9983,7 @@ Agarrable=0
 TipoPocion=4
 MaxModificador=20
 MinModificador=12
-Valor=5
+Valor=1
 Newbie=1
 Crucial=1
 
@@ -11582,7 +11582,7 @@ Crucial=1
 RazaEnana=1
 
 [OBJ959] 'enano
-Name=Ropa de Carpintero Enano (E/G)
+Name=Ropa de Carpintero (E/G-H/M)
 GrhIndex=17220
 ObjType=3
 NumRopaje=373
@@ -11628,7 +11628,7 @@ CP10=CAZADOR
 CP11=CLERIGO
 
 [OBJ961] 'enano
-Name=Ropa de Minero (E/G)
+Name=Ropa de minero (E/G-H/M)
 GrhIndex=16977
 ObjType=3
 NumRopaje=364
@@ -14984,7 +14984,7 @@ Agarrable=0
 TipoPocion=3
 MaxModificador=20
 MinModificador=15
-Valor=12
+Valor=15
 Crucial=1
 
 [OBJ1204] 'Puerta para negocio porque no tiene clave
