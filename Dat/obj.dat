@@ -2,8 +2,6 @@
 ############### SLOTS LIBRES #################
 ##############################################
 
-'207
-'574
 '577
 '578
 '579
@@ -89,7 +87,7 @@
 ' 39: Piedra de Hogar
 ' 40: Instruye
 ' 41: Pase VIP
-
+' 42: Destruible
 
 ##############################################
 #############TIPOS  DE POCIONES###############
@@ -144,23 +142,28 @@ este objeto se mostrara con un grafico. Si le ponemos
 (No poner particulas en objetos de inventario)
 
 ##############################################
-#########NUEVO SISTEMA DE TRABAJO#############
+######## NUEVO SISTEMA DE TRABAJO ############
 ##############################################
 
-Dateo de herramientas y recursos de recoleccion pasivo:
-Herramientas:
-
-Herramienta=Nº Skill - Categoria
+<<<< HERRAMIENTAS >>>>
 Ejm de pico:
 
-Herramienta=19-1 (skill herreria, categoria 1)
+Profession=19 (El 19 hace referencia al Skill de herreria para poder usarla, no la cantidad)
+Category=1 (Categoria o Tier 1)
 
-Recursos:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-Recurso=Nº Skill - Categoria
-Ejm de yacimiento:
+<<<< RECURSOS >>>>
 
-Recurso=19-1 (skill herreria, categoria 1)
+TotalHP=<Vida>
+RegenerationTime=<Tiempo de regeneracion>
+ResourceIndex=<Item que dropea al ser destruido>
+ResourceAmount=<Cantidad del item que dropea>
+ResourceTier=<Tier del recurso>
+DestroySound=<Sonido que emitira al ser destruido>
+SoundKnock=<Sonido al ser golpeado>
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 Skills Profesiones:
 
@@ -172,6 +175,8 @@ Skills Profesiones:
 '    Sastreria = 22
 '    Herboristeria = 23
 '    Alquimia = 24
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 <<<< ITEMS CONSTRUIBLES >>>>
 
@@ -1633,7 +1638,8 @@ Crucial=1
 Materiales=386-0-0-0
 CantMateriales=5-0-0-0
 SkHerreria=12
-Herramienta=17-1
+Profession=17
+Category=1
 
 [OBJ128]
 Name=Escudo de Hierro
@@ -2329,7 +2335,8 @@ Crucial=1
 Materiales=386-0-0-0
 CantMateriales=3-0-0-0
 SkHerreria=12
-Herramienta=19-1
+Profession=19
+Category=1
 
 [OBJ188]
 Name=Yacimiento de Hierro
@@ -4621,7 +4628,8 @@ Crucial=1
 Materiales=386-0-0-0
 CantMateriales=2-0-0-0
 SkHerreria=20
-Herramienta=21-1
+Profession=21
+Category=1
 
 [OBJ390]
 Name=Armadura de Placas Completa +1
@@ -6720,7 +6728,8 @@ ObjType=2
 Agarrable=0
 Valor=5000
 Crucial=0
-Herramienta=18-2
+Profession=18
+Category=2
 MinSkill=60
 MinLevel=25
 
@@ -7040,6 +7049,19 @@ Name=Flores
 GrhIndex=874
 ObjType=30
 Agarrable=1
+
+[OBJ574]
+Name=Arbol
+GrhIndex=23917
+ObjType=4
+Agarrable=1
+TotalHP=300
+RegenerationTime=3
+ResourceIndex=58
+ResourceAmount=5
+ResourceTier=1
+DestroySound=1
+SoundKnock=13
 
 [OBJ575]
 Name=Foro
@@ -13909,7 +13931,7 @@ NoSeCae=1
 Valor=0
 Crucial=0
 MinSkill=50
-Speed=3
+Speed=1.7
 
 [OBJ1115]
 Name=Montura gran Rey Mono
@@ -13923,7 +13945,7 @@ NoSeCae=1
 MinSkill=80
 Valor=0
 Crucial=0
-Speed=3
+Speed=1.2
 
 [OBJ1116]
 Name=Montura Acuatica
@@ -14042,7 +14064,7 @@ NoSeCae=1
 MinSkill=100
 Valor=0
 Crucial=0
-Speed=3
+Speed=1.2
 
 [OBJ1122]
 Name=Manual de Equitacion SUPREMO
@@ -14298,7 +14320,7 @@ NoSeCae=1
 Valor=3500000
 Crucial=0
 MinSkill=50
-Speed=3
+Speed=1.3
 
 [OBJ1140]
 Name=Espada de las almas
@@ -14603,7 +14625,7 @@ NoSeCae=1
 Valor=5000000
 Crucial=0
 MinSkill=50
-Speed=3
+Speed=1.3
 
 [OBJ1157]
 Name=Montura de Gran Dragon negro
@@ -14617,7 +14639,7 @@ NoSeCae=1
 Valor=5000000
 Crucial=0
 MinSkill=50
-Speed=3
+Speed=1.3
 
 [OBJ1158]
 Name=Daga +5
@@ -14656,7 +14678,7 @@ MinDef=120
 NoSeCae=1
 Valor=2400000
 Crucial=0
-Speed=3
+Speed=1.2
 
 [OBJ1160]
 Name=Montura de Caballo
@@ -14669,7 +14691,7 @@ MinDef=120
 NoSeCae=1
 Valor=2400000
 Crucial=0
-Speed=3
+Speed=1.3
 
 [OBJ1161]
 Name=Cuchara Legendaria (Prueba)
@@ -15887,7 +15909,8 @@ Crucial=1
 Materiales=386-0-0-0
 CantMateriales=2-0-0-0
 SkHerreria=20
-Herramienta=23-1
+Profession=23
+Category=1
 
 [OBJ1298]
 Name=Kit de costura
@@ -15900,7 +15923,8 @@ MinHit=2
 MaxHit=2
 Valor=140
 Crucial=1
-Herramienta=22-1
+Profession=22
+Category=1
 
 [OBJ1299]
 Name=Hilo
@@ -15969,7 +15993,8 @@ MinHit=2
 MaxHit=2
 Valor=140
 Crucial=1
-Herramienta=22-1
+Profession=22
+Category=1
 
 [OBJ1307]
 Name=Hongo
@@ -16030,7 +16055,8 @@ Crucial=1
 Materiales=386-387-0-0
 CantMateriales=50-20-0-0
 SkHerreria=12
-Herramienta=19-2
+Profession=19
+Category=2
 
 '<--- PASAJES DESDE BELLEUVE ---->
 
