@@ -156,7 +156,7 @@ Category=1 (Categoria o Tier 1)
 <<<< RECURSOS >>>>
 
 TotalHP=<Vida>
-RegenerationTime=<Tiempo de regeneracion>
+RegenerationTime=<Tiempo de regeneracion en minutos>
 ResourceIndex=<Item que dropea al ser destruido>
 ResourceAmount=<Cantidad del item que dropea>
 ResourceTier=<Tier del recurso>
@@ -359,7 +359,6 @@ Abierta=0
 Llave=0
 CantItems=10
 NroItems=0
-Shadow=1
 
 [OBJ11]
 Name=Cofre Cerrado
@@ -370,7 +369,6 @@ Abierta=0
 Llave=0
 CantItems=10
 NroItems=0
-Shadow=1
 
 [OBJ12]
 Name=Monedas de Oro
@@ -381,11 +379,10 @@ Agarrable=0
 [OBJ13]
 Name=Cartel - Armas
 GrhIndex=500
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Tenemos las mejores armas para los mejores guerreros.
-Shadow=1
 
 [OBJ14]
 Name=Llave
@@ -436,11 +433,10 @@ IndexCerradaLlave=17
 [OBJ18]
 Name=Cartel - Comida
 GrhIndex=512
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=La mejor comida, al mejor precio!
-Shadow=1
 
 [OBJ19]
 Name=Espada Dos Manos
@@ -465,7 +461,7 @@ SkHerreria=20
 [OBJ20]
 Name=Lapida
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yace Durmin Van Brick, otrora gran guerrero del Imperio.
@@ -588,11 +584,10 @@ Crucial=1
 [OBJ33]
 Name=Cartel - Sastre
 GrhIndex=530
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Ropa Azrra, los mejores precios!
-Shadow=1
 
 [OBJ34]
 Name=Foro de Ullathorpe
@@ -600,7 +595,6 @@ ID=Ullathorpe
 GrhIndex=529
 ObjType=10
 Agarrable=1
-Shadow=1
 
 [OBJ35]
 Name=Vestimentas Comunes
@@ -850,38 +844,34 @@ Crucial=0
 [OBJ59]
 Name=Cartel - Alquimia
 GrhIndex=546
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Pociones, aumente su fuerza, agilidad, recupere salud y demas efectos magicos!!
-Shadow=1
 
 [OBJ60]
 Name=Cartel - Casa Numero 1
 GrhIndex=547
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ61]
 Name=Cartel - Carpinteria
 GrhIndex=548
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Compra y venta de madera!
-Shadow=1
 
 [OBJ62]
 Name=Cartel - Propiedades
 GrhIndex=549
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Compra y venta de propiedades. Stock limitado!
-Shadow=1
 
 [OBJ63]
 Name=Fogata
@@ -1038,7 +1028,7 @@ IndexCerradaLlave=76
 [OBJ77]
 Name=Cartel - Casa Numero 2
 GrhIndex=553
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1046,7 +1036,7 @@ Texto=Residencia Privada.
 [OBJ78]
 Name=Cartel - Casa Numero 3
 GrhIndex=552
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1054,7 +1044,7 @@ Texto=Residencia Privada.
 [OBJ79]
 Name=Cartel - Casa Numero 4
 GrhIndex=551
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1075,7 +1065,6 @@ Name=Sandia
 GrhIndex=523
 ObjType=1
 Agarrable=0
-MinHP=4
 MinHam=25
 Valor=5
 Crucial=1
@@ -1083,7 +1072,7 @@ Crucial=1
 [OBJ82]
 Name=Cartel - Casa Numero 5
 GrhIndex=555
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1091,7 +1080,7 @@ Texto=Residencia Privada.
 [OBJ83]
 Name=Cartel - Casa Numero 6
 GrhIndex=556
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1099,7 +1088,7 @@ Texto=Residencia Privada.
 [OBJ84]
 Name=Cartel - Casa Numero 7
 GrhIndex=567
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1107,7 +1096,7 @@ Texto=Residencia Privada.
 [OBJ85]
 Name=Cartel - Casa Numero 8
 GrhIndex=568
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1115,7 +1104,7 @@ Texto=Residencia Privada.
 [OBJ86]
 Name=Cartel - Casa Numero 9
 GrhIndex=569
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
@@ -1774,11 +1763,10 @@ SkHerreria=70
 [OBJ134]
 Name=Cartel - Armaduras
 GrhIndex=570
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Compra y venta de armaduras, cascos y escudos.
-Shadow=1
 
 [OBJ135]
 Name=Tunica Roja Burda
@@ -2569,7 +2557,7 @@ SND3=217
 [OBJ209]
 Name=Cartel - Mineria
 GrhIndex=610
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Bienvenidos al Gremio de los Mineros, contamos con fabulosas herramientas y los mejores minerales de todo Argentum.
@@ -2577,124 +2565,111 @@ Texto=Bienvenidos al Gremio de los Mineros, contamos con fabulosas herramientas 
 [OBJ210]
 Name=Cartel - Casa Numero 11
 GrhIndex=611
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ211]
 Name=Cartel - Casa Numero 12
 GrhIndex=612
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ212]
 Name=Cartel - Casa Numero 13
 GrhIndex=613
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ213]
 Name=Cartel - Casa Numero 14
 GrhIndex=614
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ214]
 Name=Cartel - Casa Numero 15
 GrhIndex=615
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ215]
 Name=Cartel - Casa Numero 16
 GrhIndex=616
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ216]
 Name=Cartel - Casa Numero 17
 GrhIndex=617
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ217]
 Name=Cartel - Casa Numero 18
 GrhIndex=618
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ218]
 Name=Cartel - Casa Numero 19
 GrhIndex=619
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ219]
 Name=Cartel - Casa Numero 10
 GrhIndex=620
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ220]
 Name=Cartel - Casa Numero 20
 GrhIndex=621
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Residencia Privada.
-Shadow=1
 
 [OBJ221]
 Name=Cartel - Magia
 GrhIndex=622
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Entrad noble Mago! Puedo ofrecerte mis mejores Hechizos.
-Shadow=1
 
 [OBJ222]
 Name=Cartel - Pesca
 GrhIndex=623
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Gremio de Pescadores
-Shadow=1
 
 [OBJ223]
 Name=Cartel - Posada Ullathorpe
 GrhIndex=625
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Situada en el corazon del antiguo bosque, la Posada Ullathorpe es el refugio perfecto para los viajeros que buscan descanso y paz en su camino entre ciudades. Aqui, bajo el dosel de arboles centenarios, encontraras un hogar lejos de casa, donde la hospitalidad es tan abundante como la belleza natural que nos rodea. Disfruta de nuestras comodidades, alimentos frescos y la buena camaraderia.
@@ -2702,7 +2677,7 @@ Texto=Situada en el corazon del antiguo bosque, la Posada Ullathorpe es el refug
 [OBJ224]
 Name=Cartel - Isla del Amanecer
 GrhIndex=624
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Hola osados aventureros, sed bienvenidos a la Isla del Amanecer un santuario para los principiantes! Aqui podran entrenar sus habilidades sin correr ningun riesgo. Adentrandose encontraran criaturas perversas con las cuales podran luchar, tambien encontraran un sacerdote, provisiones, etc. Suerte!
@@ -2710,7 +2685,7 @@ Texto=Hola osados aventureros, sed bienvenidos a la Isla del Amanecer un santuar
 [OBJ225]
 Name=Cartel - Entrada Isla del Amanecer
 GrhIndex=626
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Entrada a la Isla del Amanecer, un santuario para los principiantes
@@ -2718,7 +2693,7 @@ Texto=Entrada a la Isla del Amanecer, un santuario para los principiantes
 [OBJ226]
 Name=Cartel - Belleuve / Shakoud
 GrhIndex=628
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Sigue el camino del Norte para ir a Belleuve, hacia al Este atravesando el peligroso desierto de Rinkel llegaras a Shakoud.
@@ -2726,7 +2701,7 @@ Texto=Sigue el camino del Norte para ir a Belleuve, hacia al Este atravesando el
 [OBJ227]
 Name=Cartel - Minas Manthra
 GrhIndex=627
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Entrada a las Minas Manthra. Mantengase alejado, zona de peligro.
@@ -3043,34 +3018,31 @@ Agarrable=1
 [OBJ258]
 Name=Cartel - Boveda
 GrhIndex=670
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Banco Goliath. La mayor seguridad.
-Shadow=1
 
 [OBJ259]
 Name=Cartel - Provisiones
 GrhIndex=672
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Provisiones.
-Shadow=1
 
 [OBJ260]
 Name=Cartel - Templo
 GrhIndex=673
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Sacerdote.
-Shadow=1
 
 [OBJ261]
 Name=Cartel - El Meson Hostigado
 GrhIndex=671
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=En el corazon de la capital imperial, nuestro meson es un refugio para aventureros, mercaderes y nobles por igual. Aqui, las historias fluyen tan libremente como el vino, y el calor de la hoguera siempre te espera. Degusta nuestras especialidades y sumérgete en la atmósfera única que solo El Meson Hostigado puede ofrecer.
@@ -3078,7 +3050,7 @@ Texto=En el corazon de la capital imperial, nuestro meson es un refugio para ave
 [OBJ262]
 Name=Cartel - Templo Supremo
 GrhIndex=719
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Templo Supremo, sede central de Templos del Imperio
@@ -3701,29 +3673,26 @@ Crucial=0
 [OBJ315]
 Name=Cartel - Muelles
 GrhIndex=675
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Muelles: Prohibido arrojar basura al mar!. Todo aquel que incurra en una infraccion sera multado.
-Shadow=0
 
 [OBJ316]
 Name=Cartel - Goliath
 GrhIndex=676
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Casa Central del Banco Goliath.
-Shadow=1
 
 [OBJ317]
 Name=Cartel - Palacio Imperial
 GrhIndex=677
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Bienvenido al Palacio Imperial.
-Shadow=1
 
 [OBJ318]
 Name=Invisibilidad
@@ -4353,7 +4322,7 @@ SkHerreria=75
 [OBJ368]
 Name=Lapida
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yace Altair de Oteren. Fue conocido y amado por todos, sobre todo en Nix donde siempre mostraba su generosidad y su paciencia con los newbies, ayudando con todo lo que tenia a todos, pescando por horas para dar a los demas. Altair, descansa en paz... el pueblo de Nix siempre honrara tu memoria.
@@ -4403,7 +4372,7 @@ CP11=BRUJO
 [OBJ371]
 Name=La Tumba del Capitán Espada Negra
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aquí yace un intrépido capitán de los mares, buscador de fortunas y maestro del océano. Que su espíritu siga navegando en aguas eternas.
@@ -5448,7 +5417,7 @@ Agarrable=1
 [OBJ457]'Prision
 Name=Cartel - Prision
 GrhIndex=718
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Prision del Imperio
@@ -5456,7 +5425,7 @@ Texto=Prision del Imperio
 [OBJ458]
 Name=Cartel - Shakoud
 GrhIndex=720
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Bienvenidos a Shakoud
@@ -5464,11 +5433,10 @@ Texto=Bienvenidos a Shakoud
 [OBJ459]'Shakoud
 Name=Cartel Shakoud
 GrhIndex=721
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Shakoud
-Shadow=0
 
 [OBJ460]
 Name=Daga (Newbie)
@@ -6614,7 +6582,7 @@ IndexCerrada=534
 [OBJ535]
 Name=La Tumba del Mago Supremo, Aelarion
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aquí reposan los restos del gran Aelarion, maestro de las artes mágicas y protector de los reinos. Sus hechizos iluminaron el mundo, y su sabiduría perdura en los misterios insondables que custodió.
@@ -6763,7 +6731,7 @@ Crucial=0
 [OBJ547]
 Name=Cartel - Suministros
 GrhIndex=257
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Todo tipo de suministros para el aventurero.
@@ -6771,7 +6739,7 @@ Texto=Todo tipo de suministros para el aventurero.
 [OBJ548]
 Name=Cartel - Taberna El Reposo
 GrhIndex=258
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Taberna El Reposo, una sopa caliente al lado del fuego para calentarse.
@@ -7576,7 +7544,7 @@ SkHerreria=10
 [OBJ620]
 Name=Lapida
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yace el cuerpo del Pollo Encantado.
@@ -7628,14 +7596,14 @@ SkHerreria=6500
 [OBJ626]
 Name=No ves nada interesante.
 GrhIndex=145
-VGrande=501
+GrhCartel=501
 ObjType=12
 Agarrable=1
 
 [OBJ627]
 Name=No ves nada interesante.
 GrhIndex=275
-VGrande=501
+GrhCartel=501
 ObjType=12
 Agarrable=1
 
@@ -7926,7 +7894,7 @@ CantMateriales=5-5-0-0
 [OBJ642]
 Name=Tumba de Calixto
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansa el alma pura de Calixto, diosa eterna de estas tierras.
@@ -7934,7 +7902,7 @@ Texto=Aqui descansa el alma pura de Calixto, diosa eterna de estas tierras.
 [OBJ643]
 Name=Tumba de Lobonegro
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yace el caballero mas oscuro de la noche, el lobo mas fiero. El restaurador del orden.
@@ -7942,7 +7910,7 @@ Texto=Aqui yace el caballero mas oscuro de la noche, el lobo mas fiero. El resta
 [OBJ644]
 Name=Tumba de Almendra
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yacen los restos de la Gran Diosa Almendra, quien sera recordada por toda la eternidad por haber sido la unica Diosa con barba.
@@ -8004,7 +7972,7 @@ Nosecae=1
 [OBJ651]
 Name=Portal Abissal
 GrhIndex=6904
-VGrande=501
+GrhCartel=501
 ObjType=30
 Agarrable=1
 
@@ -8889,7 +8857,7 @@ SkHerreria=80
 [OBJ703]
 Name=Tumba de Cronos
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui yace el alma de Cronos, un dios que ha dado mucho por nuestro mundo. Descansa, hermano... el pueblo de Argentum jamas te olvidara!
@@ -8915,11 +8883,10 @@ HechizoIndex=43
 [OBJ706]
 Name=Cartel - Advertencia
 GrhIndex=500
-Vgrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=PROHIBIDO TOCAR (dioses y semidioses incluidos!). Este pergamino fue encargado al imperio real por los dioses de Argentum para su estudio.
-Shadow=1
 
 [OBJ707]
 Name=Vestimenta de Noble (E/G)
@@ -8971,7 +8938,7 @@ Valor=4000
 [OBJ711]
 Name=Tumba de Valkira
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos de la Diosa Valkira, quien dejo todo de ella para ser la gran fuerza ordenadora de estas tierras durante largas temporadas. El mundo de Argentum siempre te lo agradecera.
@@ -8979,7 +8946,7 @@ Texto=Aqui descansan los restos de la Diosa Valkira, quien dejo todo de ella par
 [OBJ712]
 Name=Tumba de Jennifer
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos de Jennifer de Nix. Largo fue el camino desde su infancia como gitana hasta diosa de la ciudad del sur, quien lucho con los peores males que estas tierras han conocido. Que este mundo no olvide tu sacrificio y tu lucha contra los dioses malignos que gobernaron en otras epocas. Que tu hijo EL OSO vele por tu espiritu en este pacifico lugar.
@@ -8987,7 +8954,7 @@ Texto=Aqui descansan los restos de Jennifer de Nix. Largo fue el camino desde su
 [OBJ713]
 Name=Tumba de Jareth
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos de Jareth. Antiguo luchador y lider del ejercito real de Banderbill. Que tu espiritu proteja a la ciudad.
@@ -8995,7 +8962,7 @@ Texto=Aqui descansan los restos de Jareth. Antiguo luchador y lider del ejercito
 [OBJ714]
 Name=Tumba de Gold Fire
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos de Gold Fire. Lider supremo del ejercito de Banderbill en la septima era de este mundo.
@@ -9003,7 +8970,7 @@ Texto=Aqui descansan los restos de Gold Fire. Lider supremo del ejercito de Band
 [OBJ715]
 Name=Tumba de Amenakhte
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos de Amenakhte. Lider supremo del ejercito de la legion oscura en la novena era, gano el respeto de este mundo a fuerza de espada y sangre.
@@ -9330,28 +9297,24 @@ Name=Carreta
 GrhIndex=650
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ764]
 Name=Carreta
 GrhIndex=651
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ765]
 Name=Carreta
 GrhIndex=652
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ766]
 Name=Arbolito
 GrhIndex=653
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ767]
 Name=Margarita
@@ -9547,21 +9510,18 @@ Name=Lapida
 GrhIndex=1490
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ795]
 Name=Lapida
 GrhIndex=1491
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ796]
 Name=Arbolito en maceta muerto
 GrhIndex=1492
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ797]
 Name=Hoguera
@@ -9726,11 +9686,10 @@ Agarrable=1
 [OBJ822]
 Name=Cartel - Shakoud / Belleuve
 GrhIndex=467
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Al Norte Shakoud. Al Este Belleuve
-Shadow=1
 
 [OBJ823]
 Name=Estalagmitas
@@ -10191,7 +10150,7 @@ Crucial=1
 [OBJ868]
 Name=Tumba de Chatillon
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Yacen bajo esta tumba los restos del Gran Dios Chatillon, que dejo su vida por la gloria y el orden de estas tierras. 
@@ -10199,7 +10158,7 @@ Texto=Yacen bajo esta tumba los restos del Gran Dios Chatillon, que dejo su vida
 [OBJ869]
 Name=Tumba de Nightsorrow
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos del Dios Nightsorrow, que mucho colaboro por la justicia del Argentum.
@@ -10207,7 +10166,7 @@ Texto=Aqui descansan los restos del Dios Nightsorrow, que mucho colaboro por la 
 [OBJ870]
 Name=Tumba de Shep
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Bajo esta piedra reposan en paz los restos del gran Shep, aquel Dios que dedico su vida entera a estas tierras y sus habitantes.
@@ -10215,7 +10174,7 @@ Texto=Bajo esta piedra reposan en paz los restos del gran Shep, aquel Dios que d
 [OBJ871]
 Name=Tumba de Patrick
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Yacen aqui los restos de Patrick, aquel bondadoso Dios que con esfuerzo y trabajo mucho dio por estas tierras.
@@ -10223,7 +10182,7 @@ Texto=Yacen aqui los restos de Patrick, aquel bondadoso Dios que con esfuerzo y 
 [OBJ872]
 Name=Tumba de EL OSO
 GrhIndex=513
-VGrande=514
+GrhCartel=514
 ObjType=8
 Agarrable=1
 Texto=Aqui descansan los restos del mitico EL OSO, poderoso Dios que durante siglos fue el responsable de darle el halito de vida a este hermoso mundo gracias a su gran ciencia, bondad y dedicacion. Por siempre el pueblo del Argentum glorificara tu paso por estas tierras y te estrara eternamente agradecido.
@@ -12052,7 +12011,7 @@ Crucial=1
 [OBJ987]
 Name=Estatua de Otto Wallace
 GrhIndex=0
-VGrande=18996
+GrhCartel=18996
 ObjType=8
 Agarrable=1
 Texto= 
@@ -12066,7 +12025,7 @@ Agarrable=1
 [OBJ989]
 Name=Estatua del Panda
 GrhIndex=0
-VGrande=19715
+GrhCartel=19715
 ObjType=8
 Agarrable=1
 Texto= 
@@ -12383,7 +12342,6 @@ Name=Farola
 GrhIndex=2639
 ObjType=20
 Agarrable=1
-Shadow=1
 
 [OBJ1012]
 Name=Teleport
@@ -15312,7 +15270,7 @@ IndexCerrada=1233
 [OBJ1234]
 Name=Cartel - Alquimia
 GrhIndex=445
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Tenemos las mejores pociones de las tierras de Winter.
@@ -15320,7 +15278,7 @@ Texto=Tenemos las mejores pociones de las tierras de Winter.
 [OBJ1235]
 Name=Cartel - Armas
 GrhIndex=446
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Tenemos las mejores armas para los mejores guerreros.
@@ -15328,7 +15286,7 @@ Texto=Tenemos las mejores armas para los mejores guerreros.
 [OBJ1236]
 Name=Cartel - Carpinteria
 GrhIndex=447
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=¡Serrucho! ¡Hachas! ¡Maderas! Y todo tipo de utensilios para carpinteros.
@@ -15336,7 +15294,7 @@ Texto=¡Serrucho! ¡Hachas! ¡Maderas! Y todo tipo de utensilios para carpintero
 [OBJ1237]
 Name=Cartel - Armaduras
 GrhIndex=4484
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Las armaduras mas resistentes de las tierras de Winter para los mas valientes aventureros.
@@ -15344,7 +15302,7 @@ Texto=Las armaduras mas resistentes de las tierras de Winter para los mas valien
 [OBJ1238]
 Name=Cartel - Templo
 GrhIndex=4485
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Templo de culto, guarda silencio.
@@ -15352,7 +15310,7 @@ Texto=Templo de culto, guarda silencio.
 [OBJ1239]
 Name=Cartel - Bebidas
 GrhIndex=22485
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Bebidas para los sedientos aventureros.
@@ -15360,7 +15318,7 @@ Texto=Bebidas para los sedientos aventureros.
 [OBJ1240]
 Name=Cartel - Boveda
 GrhIndex=22486
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Mantenemos a salvo tus objetos mas preciados y tu oro.
@@ -15368,7 +15326,7 @@ Texto=Mantenemos a salvo tus objetos mas preciados y tu oro.
 [OBJ1241]
 Name=Cartel - Magia
 GrhIndex=22487
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Los hechizos mas potentes para los mejores hechiceros.
@@ -15376,7 +15334,7 @@ Texto=Los hechizos mas potentes para los mejores hechiceros.
 [OBJ1242]
 Name=Cartel - Mineria
 GrhIndex=22488
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Especialistas en minerales desde hace mas de 1000 años.
@@ -15384,7 +15342,7 @@ Texto=Especialistas en minerales desde hace mas de 1000 años.
 [OBJ1243]
 Name=Cartel - Pesca
 GrhIndex=22489
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Cañas, redes y otro tipo de herramientas para los pescadores.
@@ -15392,7 +15350,7 @@ Texto=Cañas, redes y otro tipo de herramientas para los pescadores.
 [OBJ1244]
 Name=Cartel - Propiedades
 GrhIndex=22490
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Las mejores propiedades al mejor precio.
@@ -15400,7 +15358,7 @@ Texto=Las mejores propiedades al mejor precio.
 [OBJ1245]
 Name=Cartel - Sastre
 GrhIndex=22491
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Los hechizos mas potentes para los mejores hechiceros.
@@ -15408,7 +15366,7 @@ Texto=Los hechizos mas potentes para los mejores hechiceros.
 [OBJ1246]
 Name=Cartel - Subasta
 GrhIndex=22484
-VGrande=501
+GrhCartel=501
 ObjType=8
 Agarrable=1
 Texto=Vendemos tus objetos al mejor postor.
