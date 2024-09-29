@@ -14927,7 +14927,7 @@ Name=Piel de Javali
 GrhIndex=37819
 ObjType=30
 Agarrable=0
-Valor=21
+Valor=32
 Crucial=0
 
 [OBJ1192]
@@ -14935,7 +14935,7 @@ Name=Piel de Vaca
 GrhIndex=37831
 ObjType=30
 Agarrable=0
-Valor=20
+Valor=30
 Crucial=0
 
 [OBJ1193]
@@ -14943,7 +14943,7 @@ Name=Piel de Tigre
 GrhIndex=37828
 ObjType=30
 Agarrable=0
-Valor=24
+Valor=38
 Crucial=0
 
 [OBJ1202] 
