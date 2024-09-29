@@ -232,9 +232,9 @@ QuestNumber=2
 Speed=380
 
 [NPC7]
-Name=Wilson
+Name=Jide
 NpcType=14
-Desc=¡Huid! ¡Huid! ¡Que vienen los orcos!
+Desc=Creo que esas rocas se pueden romper.
 Head=100
 Heading=1
 Body=347
@@ -246,7 +246,7 @@ Domable=0
 Alineacion=0
 Comercia=0
 BackUp=0
-NumQuest=1
+NumQuest=0
 QuestNumber=3
 Speed=380
 

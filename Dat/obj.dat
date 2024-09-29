@@ -49,7 +49,7 @@
 ' 1: Comida
 ' 2: Armas
 ' 3: Armaduras
-' 4: Arboles
+' 4: Destruible
 ' 5: Dinero
 ' 6: Puertas
 ' 7: Objetos contenedores (x ej. bolsas y cofres)
@@ -67,7 +67,7 @@
 ' 19: telep
 ' 20: Muebles
 ' 21: joyas
-' 22: yacimiento
+' 22: LIBRE
 ' 23: metales
 ' 24: pergaminos
 ' 25: Monturas
@@ -83,11 +83,10 @@
 ' 35: Manuales
 ' 36: Pasajes
 ' 37: Mochilas
-' 38: YacimientoPez
+' 38: LIBRE
 ' 39: Piedra de Hogar
 ' 40: Instruye
 ' 41: Pase VIP
-' 42: Destruible
 
 ##############################################
 #############TIPOS  DE POCIONES###############
@@ -156,12 +155,14 @@ Category=1 (Categoria o Tier 1)
 <<<< RECURSOS >>>>
 
 TotalHP=<Vida>
+ProfessionSkill=<Skill requerida para poder destruirlo. 0: Cualquiera, 17: Talar, 19: Minar>
 RegenerationTime=<Tiempo de regeneracion en minutos>
 ResourceIndex=<Item que dropea al ser destruido>
 ResourceAmount=<Cantidad del item que dropea>
 ResourceTier=<Tier del recurso>
 DestroySound=<Sonido que emitira al ser destruido>
 SoundKnock=<Sonido al ser golpeado>
+GrhRemains=<Grafico por el que sera reemplazado cuando el recurso sea destruido. No es obligatorio, si no se pone el recurso desaparece por completo hasta su respawn>
 
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -7029,7 +7030,7 @@ ResourceIndex=58
 ResourceAmount=5
 ResourceTier=1
 DestroySound=1
-SoundKnock=13
+SoundKnock=17
 
 [OBJ575]
 Name=Foro
