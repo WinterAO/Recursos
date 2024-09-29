@@ -6928,12 +6928,17 @@ Agarrable=0
 Crucial=0
 
 [OBJ561]
-Name=Arbol
-GrhIndex=7002
+Name=Arbol - Abeto
+GrhIndex=23941
 ObjType=4
 Agarrable=1
-Recurso=17-1
-RecursoIndex=58
+TotalHP=1000
+RegenerationTime=4
+ResourceIndex=58
+ResourceAmount=30
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
 
 [OBJ562]
 Name=Herreria: Planos Daga Envenenada
@@ -7020,14 +7025,14 @@ ObjType=30
 Agarrable=1
 
 [OBJ574]
-Name=Arbol
-GrhIndex=23917
+Name=Arbol - Fresno
+GrhIndex=23913
 ObjType=4
 Agarrable=1
-TotalHP=300
+TotalHP=350
 RegenerationTime=3
 ResourceIndex=58
-ResourceAmount=5
+ResourceAmount=8
 ResourceTier=1
 DestroySound=1
 SoundKnock=17
@@ -7045,6 +7050,45 @@ ID=Arghal2
 GrhIndex=529
 ObjType=10
 Agarrable=1
+
+[OBJ577]
+Name=Arbol - Roble
+GrhIndex=23914
+ObjType=4
+Agarrable=1
+TotalHP=550
+RegenerationTime=3
+ResourceIndex=58
+ResourceAmount=8
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
+
+[OBJ578]
+Name=Arbol - Roble
+GrhIndex=23916
+ObjType=4
+Agarrable=1
+TotalHP=550
+RegenerationTime=3
+ResourceIndex=58
+ResourceAmount=8
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
+
+[OBJ579]
+Name=Arbol - Manzano
+GrhIndex=23917
+ObjType=4
+Agarrable=1
+TotalHP=550
+RegenerationTime=3
+ResourceIndex=58
+ResourceAmount=4
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
 
 '<-------------------------------CASAS ARKHEIN------------------------------->
 
