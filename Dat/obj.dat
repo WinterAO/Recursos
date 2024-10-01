@@ -2,12 +2,6 @@
 ############### SLOTS LIBRES #################
 ##############################################
 
-'577
-'578
-'579
-'621
-'647
-'649
 '702
 '1019
 '1020
@@ -7594,6 +7588,19 @@ ObjType=8
 Agarrable=1
 Texto=Aqui yace el cuerpo del Pollo Encantado.
 
+[OBJ621]
+Name=Arbol - Arce
+GrhIndex=23922
+ObjType=4
+Agarrable=1
+TotalHP=680
+RegenerationTime=4
+ResourceIndex=58
+ResourceAmount=22
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
+
 [OBJ622]
 Name=Barrilito de cerveza
 GrhIndex=20505
@@ -7980,6 +7987,19 @@ MinDef=0
 Valor=675000
 Crucial=0
 
+[OBJ647]
+Name=Arbol - Arce
+GrhIndex=23923
+ObjType=4
+Agarrable=1
+TotalHP=680
+RegenerationTime=4
+ResourceIndex=58
+ResourceAmount=22
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
+
 [OBJ648]
 Name=Armadura de Cazador (E/G)
 GrhIndex=1100
@@ -8002,6 +8022,19 @@ CP8=GUERRERO
 CP9=BARDO
 CP10=DRUIDA
 CP11=BRUJO
+
+[OBJ649]
+Name=Arbol - Arce
+GrhIndex=23924
+ObjType=4
+Agarrable=1
+TotalHP=680
+RegenerationTime=4
+ResourceIndex=58
+ResourceAmount=22
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
 
 [OBJ650]
 Name=Tunica Pretoriana
@@ -8898,6 +8931,19 @@ CP8=BRUJO
 Materiales=386-387-0-0
 CantMateriales=250-63-0-0
 SkHerreria=80
+
+[OBJ702]
+Name=Arbol - Abeto
+GrhIndex=23930
+ObjType=4
+Agarrable=1
+TotalHP=1000
+RegenerationTime=4
+ResourceIndex=58
+ResourceAmount=26
+ResourceTier=1
+DestroySound=1
+SoundKnock=17
 
 [OBJ703]
 Name=Tumba de Cronos
