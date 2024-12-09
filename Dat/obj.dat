@@ -2803,9 +2803,9 @@ ObjType=3
 NumRopaje=52
 Agarrable=0
 RazaEnana=1
-MaxDef=0
-MinDef=0
-Valor=40
+MaxDef=2
+MinDef=2
+Valor=21
 Crucial=1
 
 [OBJ241] 'Puerta para negocio porque no tiene clave
@@ -4626,7 +4626,7 @@ NumRopaje=195
 Agarrable=0
 MaxDef=50
 MinDef=45
-Valor=47600
+Valor=26000
 Crucial=0
 CP1=MAGO
 CP2=DRUIDA
@@ -4669,8 +4669,8 @@ NumRopaje=191
 Agarrable=0
 RazaEnana=1
 MaxDef=50
-MinDef=55
-Valor=47600
+MinDef=45
+Valor=26000
 Crucial=0
 CP1=MAGO
 CP2=DRUIDA
@@ -5789,9 +5789,9 @@ GrhIndex=761
 ObjType=3
 NumRopaje=94
 Agarrable=0
-MaxDef=60
-MinDef=55
-Valor=328000
+MaxDef=50
+MinDef=50
+Valor=50000
 Crucial=0
 CP1=MAGO
 CP2=DRUIDA
@@ -5853,14 +5853,14 @@ Valor=3000
 Crucial=1
 
 [OBJ489]
-Name=Armadura de Placas Azul
+Name=Armadura de Placas Azules
 GrhIndex=765
 ObjType=3
 NumRopaje=98
 Agarrable=0
-MaxDef=45
+MaxDef=35
 MinDef=40
-Valor=59000
+Valor=16000
 Crucial=0
 CP1=MAGO
 CP2=DRUIDA
@@ -5965,9 +5965,9 @@ GrhIndex=771
 ObjType=3
 NumRopaje=105
 Agarrable=0
-MaxDef=55
+MaxDef=50
 MinDef=50
-Valor=86000
+Valor=50000
 Crucial=0
 CP1=MAGO
 CP2=DRUIDA
@@ -6126,15 +6126,15 @@ CantMateriales=360-0-0-0
 SkHerreria=80
 
 [OBJ504]
-Name=Atuendo Combinado (H/E/EO-M)
+Name=Ropa Comun (H/E/EO-M)
 GrhIndex=780
 ObjType=3
 NumRopaje=114
 Agarrable=0
 Mujer=1
-MaxDef=3
-MinDef=1
-Valor=200
+MaxDef=2
+MinDef=2
+Valor=21
 Crucial=1
 CP1=PIRATA
 
@@ -6256,21 +6256,21 @@ ObjType=3
 NumRopaje=124
 Agarrable=0
 Mujer=1
-MaxDef=20
-MinDef=15
-Valor=10500
+MaxDef=25
+MinDef=20
+Valor=8000
 Crucial=1
 
 [OBJ514]
-Name=Vestido de Bruja Especial (H/E/EO-M)
+Name=Vestido de Bruja (EO-M)
 GrhIndex=791
 ObjType=3
 NumRopaje=125
 Agarrable=0
 Mujer=1
-MaxDef=26
-MinDef=19
-Valor=15200
+MaxDef=15
+MinDef=10
+Valor=8000
 Crucial=1
 
 [OBJ515]
@@ -6487,16 +6487,16 @@ Crucial=1
 CP1=MAGO
 
 [OBJ527]
-Name=Ropa de Enana (E/G-M)
+Name=Ropa comun (E/G-M)
 GrhIndex=804
 ObjType=3
 NumRopaje=138
 Agarrable=0
 RazaEnana=1
 Mujer=1
-MaxDef=4
+MaxDef=2
 MinDef=2
-Valor=400
+Valor=21
 Crucial=1
 
 [OBJ528]
@@ -8982,7 +8982,7 @@ Agarrable=1
 Texto=PROHIBIDO TOCAR (dioses y semidioses incluidos!). Este pergamino fue encargado al imperio real por los dioses de Argentum para su estudio.
 
 [OBJ707]
-Name=Vestimenta de Noble (E/G)
+Name=Vestimenta de Noble Enanos (E/G)
 GrhIndex=13282
 ObjType=3
 NumRopaje=180
@@ -8990,7 +8990,7 @@ Agarrable=0
 Razaenana=1
 MaxDef=5
 MinDef=3
-Valor=700
+Valor=100
 Crucial=1
 
 [OBJ708]
@@ -10651,9 +10651,9 @@ GrhIndex=761
 ObjType=3
 NumRopaje=319
 Agarrable=0
-MaxDef=47
-MinDef=42
-Valor=358000
+MaxDef=50
+MinDef=50
+Valor=50000
 Crucial=0
 Mujer=1
 CP1=MAGO
@@ -10917,9 +10917,9 @@ GrhIndex=14952
 ObjType=3
 NumRopaje=289
 Agarrable=0
-MinDef=7
-MaxDef=12
-Valor=3400
+MinDef=10
+MaxDef=15
+Valor=20000
 Crucial=1
 RazaEnana=1
 Mujer=1
