@@ -15474,6 +15474,7 @@ Llave=0
 IndexAbierta=1247
 IndexCerrada=1248
 IndexCerradaLlave=8
+PuertaGigante=1
 
 [OBJ1248] 'Puerta para negocio porque no tiene clave
 Name=Gran Puerta de madera cerrada
@@ -15485,6 +15486,7 @@ Llave=0
 IndexAbierta=1247
 IndexCerrada=1248
 IndexCerradaLlave=8
+PuertaGigante=1
 
 [OBJ1249]
 Name=Glandula de Veneno
